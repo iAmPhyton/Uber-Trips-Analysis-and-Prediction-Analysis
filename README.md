@@ -62,7 +62,7 @@ Code Summary:
    - The 'Random Forest' model performed better than 'Linear Regression' based on the MSE.
    - Visualize the actual vs. predicted number of trips for both models.
 
-## How to Run
+How to Run
 
 1. Clone the repository:
    
@@ -76,6 +76,8 @@ Code Summary:
 4. Run the Python script:
    
    python uber_trip_analysis.py
+
+5. Unzip 'uber-raw-data-sep14.zip' to be able to access the dataset. 
 
 Results:
 
