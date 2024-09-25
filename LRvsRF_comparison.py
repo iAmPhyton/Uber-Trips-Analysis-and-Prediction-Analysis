@@ -63,7 +63,7 @@ plt.show()
 
 #visualisng comparison: Linear Regression vs Random Forest
 plt.figure(figsize=(10,6))
-plt.scatter(x_test['Hour'], y-y_test, color='blue', label='Actual Trips', alpha=0.5)
+plt.scatter(x_test['Hour'], y_test, color='blue', label='Actual Trips', alpha=0.5)
 plt.scatter(x_test['Hour'], y_pred_lr, color='red', label='Predicted Trips (Linear Regression)', alpha=0.7)
 plt.scatter(x_test['Hour'], y_pred_rf, color='green', label='Predicted Trips (Random Forest)', alpha=0.7)
 plt.xlabel('Hour')
